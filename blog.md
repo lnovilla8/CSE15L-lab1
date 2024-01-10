@@ -2,8 +2,9 @@
 ![Image](360_F_217188426_smgwnDFnQC5DHQ8mKGkdsMO7oDDP5nZn.jpg)
 ## cd 
 **Use of cd command with *no* arguments**
-**Terminal:**
 
+
+**Terminal:**
 ```
 [user@sahara ~/lecture1]$ pwd
 /home/lecture1
