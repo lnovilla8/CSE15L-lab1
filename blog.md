@@ -37,6 +37,41 @@ When using the cd command without arguments, the output returns an empty line. H
 
 When using the cd command with a path to a directory as an argument, the output returns an empty line. However, the current directory in the command propt adds the inputted directory and the working directory is changed into /home/<'argument'>. This is not an error.
 
+**Use of cd command with a path to a file as an argument**
+
+
+**Terminal:**
+```
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ cd Hello.java
+bash: cd: Hello.java: No such file or directory
+```
+**Explanation:**
+
+When using the cd command with a path to a file, it outputs, "bash: cd: Hello.java: No such file or directory". This is an error because the cd command only works with a path to a folder or directory. You cannot change the directory to a file.
+
 ## ls
+**Use of ls command with *no* arguments**
+
+
+**Terminal:**
+```
+
+```
+**Explanation:**
+
+
+
+**Use of ls command with a path to a directory as an argument**
+
+
+**Terminal:**
+```
+
+```
+**Explanation:**
+
+
 
 ## cat
