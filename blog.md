@@ -57,21 +57,41 @@ When using the cd command with a path to a file, it outputs, "bash: cd: Hello.ja
 
 **Terminal:**
 ```
-
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ ls
+lecture1
 ```
 **Explanation:**
 
-
+When using the ls command with no arguements, it prints out a list of the files/folders in the current directory. In the example, the current working directory is /home which contains the folder lecture1. This is not an error.
 
 **Use of ls command with a path to a directory as an argument**
 
 
 **Terminal:**
 ```
-
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ ls lecture1
+Hello.class  Hello.java  messages  README
 ```
 **Explanation:**
 
+When using the ls command with a directory as the argument, it lists out the files/folders in that directory. This is not an error.
 
+**Use of ls command with a path to a file as an argument**
+
+
+**Terminal:**
+```
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ ls /home/lecture1/Hello.java
+/home/lecture1/Hello.java
+```
+**Explanation:**
+
+When using the ls command with a path to a file as an argument, it outputs the file path. This is not an error.
 
 ## cat
