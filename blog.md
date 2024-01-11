@@ -1,6 +1,6 @@
 # Lab Report 1 - Remote Access and FileSystem
+(Folders & Files Used)
 ![Image](files.png)
-
 ![Image](360_F_217188426_smgwnDFnQC5DHQ8mKGkdsMO7oDDP5nZn.jpg)
 
 ## cd 
