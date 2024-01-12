@@ -4,7 +4,7 @@
 ![Image](files.png)
 ![Image](360_F_217188426_smgwnDFnQC5DHQ8mKGkdsMO7oDDP5nZn.jpg)
 
-## cd 
+# cd 
 **Use of cd command with *no* arguments**
 
 
@@ -51,7 +51,7 @@ bash: cd: Hello.java: No such file or directory
 
 When using the cd command with a path to a file, it outputs, "bash: cd: Hello.java: No such file or directory". This is an error because the cd command only works with a path to a folder or directory. You cannot change the directory to a file.
 
-## ls
+# ls
 **Use of ls command with *no* arguments**
 
 
@@ -94,4 +94,35 @@ When using the ls command with a directory as the argument, it lists out the fil
 
 When using the ls command with a path to a file as an argument, it outputs the file path. This is not an error.
 
-## cat
+# cat
+**Use of cat command with *no* arguments**
+
+
+**Terminal:**
+```
+
+```
+**Explanation:**
+
+
+
+**Use of cat command with a path to a directory as an argument**
+
+
+**Terminal:**
+```
+
+```
+**Explanation:**
+
+
+
+**Use of cat command with a path to a file as an argument**
+
+
+**Terminal:**
+```
+
+```
+**Explanation:**
+
