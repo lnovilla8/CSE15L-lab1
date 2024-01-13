@@ -19,7 +19,7 @@
 ```
 **Explanation:**
 
-When using the cd command without arguments, the output returns an empty line. However, the current directory in the command prompt is removed and the working directory is changed into the root folder. This is not an error.
+When using the cd command without arguments, the output returns an empty line. However, the current directory in the command prompt is reset and the working directory is changed into the root folder. This is not an error.
 
 **Use of cd command with a path to a directory as an argument**
 
@@ -108,7 +108,7 @@ cat
 ```
 **Explanation:**
 
-When using the cat command with no arguments, the terminal outputs a blank line and returns whatever you type into it. It will continue to repeat what you enter into terminal until the code stops. Since the command was given no path to read, it reads what is enterred into the terminal.
+When using the cat command with no arguments, the terminal continues to wait for input. It will repeat what you enter into terminal until the code stops. Since the command was given no path to read, it echoes what is enterred into the terminal.
 
 **Use of cat command with a path to a directory as an argument**
 
