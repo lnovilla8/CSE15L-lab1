@@ -121,7 +121,7 @@ cat: /home/lecture1: Is a directory
 ```
 **Explanation:**
 
-When using the cat command with a path to a directory as an argument, it printed out "cat: /home/lecture1: Is a directory". The terminal will print that the path leads to a directory. This is not an error.
+When using the cat command with a path to a directory as an argument, it printed out '''cat: /home/lecture1: Is a directory'''. The terminal will print that the path leads to a directory. This is an error because the cat command did not do what it was supposed to.
 
 **Use of cat command with a path to a file as an argument**
 
