@@ -48,7 +48,7 @@ bash: cd: /home/lecture1/Hello.java: Not a directory
 ```
 **Explanation:**
 
-When using the cd command with a path to a file, it outputs, '''bash: cd: /home/lecture1/Hello.java: Not a directory'''. This is an error because the cd command only works with a path to a folder or directory. You cannot change the directory to a file.
+When using the cd command with a path to a file, it outputs, ```bash: cd: /home/lecture1/Hello.java: Not a directory```. This is an error because the cd command only works with a path to a folder or directory. You cannot change the directory to a file.
 
 # ls
 **Use of ls command with *no* arguments**
